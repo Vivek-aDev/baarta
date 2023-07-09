@@ -1,0 +1,68 @@
+.hide-on-md {
+  display: none;
+}
+.content-box-container {
+  min-height: 100vh;
+  max-height: fit-content;
+}
+
+.searched-users {
+  min-height: 50px;
+  max-height: 130px;
+  overflow-y: scroll;
+  margin: 0 2rem;
+  position: fixed;
+  top: 118px;
+  left: 0px;
+  right: 0px;
+  z-index: 1;
+  background-color: var(--white);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: var(--light-font-clr);
+}
+.searched-user-profile {
+  width: 35px;
+  height: 35px;
+  background-color: var(--bg-color);
+  margin-bottom: 1rem;
+  border-radius: 50%;
+}
+.search-user-name {
+  margin-left: 0.5rem;
+}
+.user-not-found {
+  color: var(--light-font-clr);
+  margin: 0.5rem 0;
+}
+@media (min-width: 1024px) {
+  .hide-on-md {
+    display: block;
+    position: sticky;
+    top: 0px;
+    height: 100px;
+    padding-top: 1.5rem;
+    background-color: var(--bg-color);
+  }
+  .searched-users {
+    max-width: 610px;
+    margin: auto;
+    /* padding: 1rem 1rem; */
+  }
+}
+
+.searched-users::-webkit-scrollbar {
+  width: 4px;
+  height: 2px;
+}
+
+.searched-users::-webkit-scrollbar-track {
+  border-radius: 0;
+  background: #eeeeee;
+}
+
+.searched-users::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  background: var(--primary);
+}

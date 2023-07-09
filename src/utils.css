@@ -1,0 +1,93 @@
+/* Flex */
+.flex {
+  display: flex;
+}
+
+.direction-column {
+  flex-direction: column;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.align-center {
+  align-items: center;
+}
+
+.relative {
+  position: relative;
+}
+
+/*  */
+.text-center {
+  text-align: center;
+}
+
+.letter-spacing-1 {
+  letter-spacing: 1px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.padding-left-03 {
+  padding-left: 0.3rem;
+}
+
+.border-bottom-gray {
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+/* Dark Mode */
+.dark-bg {
+  background-color: var(--dark-color);
+}
+
+.font-for-dark {
+  color: var(--white);
+}
+
+.display-inline-block {
+  display: inline-block;
+}
+.width-100 {
+  width: 100%;
+}
+
+.decoration-none {
+  text-decoration: none;
+}
+
+/* DARK MODE */
+.color-white {
+  color: var(--white) !important;
+}
+
+.bg-dark {
+  background-color: #0b2239 !important;
+}
+
+.bg-dark-light {
+  background-color: #1e293b !important;
+}
+.dark-hover-effect:hover {
+  background-color: #1e293b !important;
+}
+.border-color-dark {
+  border-color: #354656 !important;
+}

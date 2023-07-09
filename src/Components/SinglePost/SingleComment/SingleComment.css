@@ -1,0 +1,45 @@
+.comment-card {
+  margin-bottom: 1rem;
+}
+.user-comment-profile {
+  width: 35px;
+  height: 35px;
+  margin-right: 0.5rem;
+  color: var(--primary);
+  border-radius: 50%;
+}
+.comment-user-name {
+  font-weight: bold;
+}
+.user-comment {
+  width: 100%;
+  background-color: aliceblue;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  color: var(--light-gray);
+}
+
+.comment-user-name {
+  color: var(--gray);
+}
+
+.delete-comment-icon {
+  color: var(--red);
+  font-size: 1.1rem;
+}
+
+@media (min-width: 1024px) {
+  .comment-user-name {
+    font-size: 1.06rem;
+  }
+  .comment-desc {
+    font-size: 1.01rem;
+  }
+  .user-comment-profile {
+    width: 40px;
+  }
+  .delete-comment-icon {
+    color: var(--red);
+    font-size: 1.3rem;
+  }
+}

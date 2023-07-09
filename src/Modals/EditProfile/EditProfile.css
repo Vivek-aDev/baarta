@@ -1,0 +1,140 @@
+.edit-profile-main {
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: #0000008f;
+  z-index: 2;
+}
+
+.edit-profile-container {
+  margin: 1rem;
+  padding: 1.4rem 0.4rem;
+  width: 70%;
+  margin: auto;
+  background-color: var(--white);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  margin-top: 12rem;
+
+  position: relative;
+}
+
+.edit-profile-inner-container {
+  width: 90%;
+  margin: auto;
+}
+.profile-text {
+  margin-right: 0.5rem;
+}
+.edit-profile-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.edit-profile-camera-icon {
+  color: var(--light-font-clr);
+  position: absolute;
+  bottom: -8px;
+  left: 75px;
+  font-size: 1.2rem;
+}
+.link-box {
+  display: inline-block;
+  margin: 1rem 0;
+}
+
+.link-text {
+  margin-right: 0.5rem;
+}
+
+.link-input {
+  border: 1px solid lightgray;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+  color: var(--light-font-clr);
+  outline-color: var(--primary);
+
+  flex-grow: 1;
+}
+
+.edit-bio-textarea {
+  resize: none;
+  border-color: lightgray;
+  outline-color: var(--primary);
+  color: var(--light-font-clr);
+  border-radius: 0.5rem;
+  height: 100px;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+/* upload */
+.input-file-container {
+  position: relative;
+  display: inline-block;
+}
+
+.input-file-container .btn-upload:hover {
+  color: var(--primary);
+}
+
+/* Hide the default file input */
+.input-file-container input[type="file"] {
+  display: none;
+}
+.update-btn,
+.cancel-btn {
+  background-color: var(--primary);
+  padding: 0.2rem 0.5rem;
+  color: var(--white);
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  border: 1px solid var(--primary);
+
+  align-self: flex-end;
+}
+.cancel-btn {
+  background-color: var(--red);
+  border: 1px solid var(--red);
+  margin-left: 0.5rem;
+}
+@media (min-width: 1024px) {
+  .edit-profile-container {
+    width: 30%;
+  }
+  .input-file-container .btn-upload {
+    font-size: 1.2rem;
+  }
+  .update-btn,
+  .cancel-btn {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.94rem;
+  }
+  .update-btn:hover {
+    background-color: var(--white);
+    color: var(--primary);
+    transition: background-color 0.4s;
+  }
+  .cancel-btn:hover {
+    background-color: var(--white);
+    color: var(--red);
+    transition: background-color 0.4s;
+  }
+  .edit-bio-textarea {
+    font-size: 1rem;
+  }
+  .profile-text {
+    font-size: 1.2rem;
+  }
+  .edit-profile-icon {
+    width: 50px;
+    height: 50px;
+  }
+  .edit-profile-camera-icon {
+    bottom: -8px;
+    left: 90px;
+    font-size: 1.4rem;
+  }
+}

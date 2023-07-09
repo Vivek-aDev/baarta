@@ -1,0 +1,141 @@
+.navigation {
+  padding: 0.6rem;
+  background-color: var(--white);
+  border-bottom: 1px solid lightgray;
+  z-index: 1;
+  position: sticky;
+  top: 0px;
+  margin-bottom: 2rem;
+}
+.brand-logo-nav {
+  width: 50px;
+}
+.nav-brand {
+  color: var(--primary);
+}
+.nav-header-box {
+  width: 100%;
+}
+.icon-box {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.icon {
+  color: var(--primary);
+  font-size: 1.4rem;
+}
+
+.icon-page-name {
+  display: none;
+  color: var(--black);
+  font-family: "Montserrat", sans-serif;
+}
+
+.bookmark-icon {
+  font-size: 1.2rem;
+}
+.logout-btn {
+  background-color: var(--bg-clr);
+  border: none;
+}
+.theme-btn {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+@media (min-width: 600px) {
+  .navigation {
+    padding: 0.8rem;
+  }
+  .brand-logo {
+    width: 40px;
+  }
+  .nav-brand {
+    margin-left: 0.4rem;
+    font-size: 1.6rem;
+  }
+
+  .icon {
+    font-size: 1.6rem;
+  }
+  .bookmark-icon {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .navigation {
+    padding: 2rem 0rem;
+    flex-direction: column;
+    height: 400px;
+    background-color: var(--bg-clr);
+    border: none;
+  }
+  .nav-header-box {
+    margin-bottom: 1rem;
+    justify-content: flex-end !important;
+  }
+
+  .nav-brand {
+    font-size: 1.8rem;
+  }
+  .icon-box {
+    position: unset;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    background-color: unset;
+    padding: 0;
+    align-items: flex-end !important;
+  }
+  .icon-page-name {
+    display: block;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+  .icon-li {
+    text-decoration: none;
+    margin-top: 1.5rem;
+    color: var(--light-gray);
+    width: 200px;
+    display: flex;
+    align-items: center;
+  }
+  .icon {
+    font-size: 1.8rem;
+    padding-top: 0.4rem;
+  }
+  .bookmark-icon {
+    font-size: 1.6rem;
+  }
+
+  .dark-light-text,
+  .logout-text {
+    font-size: 0.92rem;
+  }
+  .tab-style-lg {
+    padding-bottom: 0.3rem;
+  }
+  .tab-style-lg:hover {
+    border-radius: 0.5rem;
+    background-color: #e6e6e6;
+  }
+  .active:hover {
+    background-color: var(--white);
+  }
+  .nav-brand-logo,
+  .nav-brand-header {
+    background-color: var(--bg-clr);
+  }
+  .nav-brand-logo:hover,
+  .nav-brand-header:hover {
+    cursor: pointer;
+    background-color: var(--bg-clr);
+  }
+}

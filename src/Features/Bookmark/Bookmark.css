@@ -1,0 +1,19 @@
+.bookmarke-heading {
+  color: #45454585;
+  margin-bottom: 1rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.bookmarks-container {
+  margin-top: 4.5rem;
+  padding: 0.5rem;
+}
+
+@media (min-width: 1024px) {
+  .bookmarke-heading {
+    margin-top: -1rem;
+  }
+  .bookmarks-container {
+    margin-top: 3rem;
+  }
+}

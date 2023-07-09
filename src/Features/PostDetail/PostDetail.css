@@ -1,0 +1,9 @@
+.post-detail-container {
+  margin-top: 4.5rem;
+}
+
+@media (min-width: 1024px) {
+  .post-detail-container {
+    margin-top: 2rem;
+  }
+}

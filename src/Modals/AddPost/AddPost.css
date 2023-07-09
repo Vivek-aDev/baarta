@@ -1,0 +1,129 @@
+.create-post-main {
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: #0000008f;
+  z-index: 2;
+}
+
+.create-post-container {
+  margin: 1rem;
+  padding: 1.4rem 0.4rem;
+  width: 70%;
+  margin: auto;
+  background-color: var(--white);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  margin-top: 12rem;
+
+  position: relative;
+}
+
+.create-post-inner-container {
+  width: 90%;
+  margin: auto;
+}
+.go-back {
+  font-size: 1.3rem;
+  color: var(--light-font-clr);
+  padding-top: 0.2rem;
+}
+
+.new-post-button {
+  background-color: var(--primary);
+  border: none;
+  padding: 0.2rem 0.5rem;
+  color: var(--white);
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  border: 1px solid var(--primary);
+
+  align-self: flex-start;
+}
+
+.post-textarea {
+  resize: none;
+  border-color: lightgray;
+  outline-color: var(--primary);
+  color: var(--light-font-clr);
+  border-radius: 0.5rem;
+  height: 130px;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  width: 100%;
+}
+.add-photo-box:hover {
+  color: var(--primary);
+}
+.add-photo-icon {
+  font-size: 1.4rem;
+}
+
+/* upload */
+.input-file-container {
+  position: relative;
+  display: inline-block;
+}
+
+.input-file-container .btn-upload:hover {
+  color: var(--primary);
+}
+
+/* Hide the default file input */
+.input-file-container input[type="file"] {
+  display: none;
+}
+
+/* selected img file */
+.selected-img-box {
+  position: relative;
+}
+.selected-img {
+  margin-top: 0.5rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 0.5rem;
+}
+
+.clear-selected-img {
+  position: absolute;
+  right: 38px;
+  top: -2px;
+  font-size: 1.3rem;
+  color: var(--red);
+}
+
+@media (min-width: 1024px) {
+  .create-post-container {
+    width: 30%;
+  }
+  .input-file-container .btn-upload {
+    font-size: 1.2rem;
+  }
+  .new-post-button {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.94rem;
+  }
+  .new-post-button:hover {
+    background-color: var(--white);
+    color: var(--primary);
+    transition: background-color 0.4s;
+  }
+  .post-textarea {
+    font-size: 1rem;
+  }
+  .selected-img {
+    width: 70px;
+    height: 70px;
+  }
+  .clear-selected-img {
+    right: 25px;
+    top: -6px;
+    font-size: 1.6rem;
+    color: var(--red);
+  }
+  .add-photo-text {
+    font-size: 1rem;
+  }
+}

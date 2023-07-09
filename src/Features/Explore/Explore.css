@@ -1,0 +1,14 @@
+.explore-container {
+  margin-top: 4.5rem;
+}
+.explore-heading {
+  color: #45454585;
+  margin-bottom: 1rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+@media (min-width: 1024px) {
+  .explore-container {
+    margin-top: 2rem;
+  }
+}

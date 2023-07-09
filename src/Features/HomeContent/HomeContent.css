@@ -1,0 +1,98 @@
+.add-post-bar,
+.trending-latest-box {
+  margin: 0 1rem;
+  padding: 0.5rem;
+  background-color: var(--white);
+  color: var(--gray);
+  font-size: 0.95rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+.add-post-bar {
+  margin-top: 4.5rem;
+  color: var(--black);
+}
+
+.addpost-profile-icon,
+.addpost-plus-icon {
+  font-size: 1.4rem;
+  color: var(--primary);
+  margin-right: 0.5rem;
+}
+.addpost-plus-icon .plus-icon:hover {
+  box-shadow: 0px 2px 4px rgba(29, 155, 240, 0.7);
+  border-radius: 1rem;
+}
+.trending-box:hover,
+.latest-box:hover {
+  color: var(--primary);
+}
+.trending-btn:hover,
+.latest-btn:hover {
+  color: var(--primary);
+}
+.trending-btn,
+.latest-btn {
+  background-color: var(--white);
+  border: none;
+  color: var(--primary);
+  font-size: 0.9rem;
+  padding-left: 0.3rem;
+}
+.trending-mid-line {
+  border: 1px solid lightgray;
+}
+.posts {
+  margin-top: 1rem;
+}
+.add-post-text:hover {
+  cursor: text;
+}
+.user-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.type-active {
+  font-weight: bold;
+  color: var(--primary) !important;
+}
+
+.likes-posts-heading {
+  margin-bottom: 1rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1024px) {
+  .hide-follow-on-lg {
+    display: none;
+  }
+  .posts {
+    margin-top: 2rem;
+  }
+  .add-post-bar,
+  .trending-latest-box {
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 1.2rem;
+  }
+  .add-post-bar {
+    margin-top: 2rem;
+  }
+  .trending-btn,
+  .latest-btn {
+    font-size: 1rem;
+  }
+  .user-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .plus-icon {
+    font-size: 1.5rem;
+  }
+  .likes-posts-heading {
+    margin-top: 1rem;
+  }
+}
