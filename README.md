@@ -2,7 +2,8 @@
 
 This is a fully functional Social Media app named as [Baarta](https://baarta.netlify.app/).
 
-https://www.loom.com/share/de83ad717aa8470097b36a029b940518?sid=e3dac93c-edc8-4ee1-97e6-622a6b465676
+https://github.com/Vivek-aDev/baarta/assets/60030641/000cc137-51ba-4fc4-a7aa-663bcd5fc3f0
+
 
 ## Pages and Features
 
