@@ -33,7 +33,7 @@ function App() {
         <Route path='/signUp' element={<SignUp />} />
         <Route path='/mockman' element={<Mockman />} />
       </Routes>
-      <ToastContainer position="top-center"
+      <ToastContainer position="bottom-right"
         autoClose={1000}
         hideProgressBar={false}
         newestOnTop={false}
